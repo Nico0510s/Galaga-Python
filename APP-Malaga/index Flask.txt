@@ -1,0 +1,88 @@
+<div class="container">
+        <div class="row">
+            <div class="container-fluid margin col-3">
+                <img src="flask-vertical.webp" alt="">
+                <h1>FLASK</h1>
+                <h4>Contents</h4>
+
+                <a href="#" class="link-secondary">Installation</a>
+                <a href="#" class="link-secondary">Python Version</a>
+                <a href="#" class="link-secondary">Dependencies</a>
+                <a href="#" class="link-secondary">Optional dependencies</a>
+                <a href="#" class="link-secondary">greenlet</a>
+                <a href="#" class="link-secondary">Virtual environments</a>
+                <a href="#" class="link-secondary">Create an environment</a>
+                <a href="#" class="link-secondary">Activate the environment</a>
+                <a href="#" class="link-secondary">Install Flask</a>
+                <!--Segunda parte links-->
+
+
+                <h4>Navigation</h4>
+                <a href="#" class="link-secondary">Overview</a>
+                <a href="#" class="link-secondary">Previous: Welcome to Flask</a>
+                <a href="#" class="link-secondary">Next: Quickstart</a>
+
+                <!--Sector de Busqueda-->
+                <h4>Quick Search</h4>
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">Go</span>
+                        </div>
+                        <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                      </div>
+                    </form>
+                  </nav>
+            </div>
+            <div class="container margin_2 col-9">
+                <!--Principio-->
+                <h1 class="margin-revert">Installation</h1>
+                <h3 class="margin-revert">Python Version</h3>
+                <p class="margin-revert">We recommend using the latest version of Python. Flask supports Python 3.9 and newer</p>
+                <h2>Dependencies</h2>
+                <!--Segundo parrafo-->
+                <p>These distributions will be installed automatically when installing Flask.</p>
+                <li>Werkzeug implements WSGI, the standard Python interface between applications and servers.</li>
+                <li>Jinja is a template language that renders the pages your application serves.</li>
+                <li>MarkupSafe comes with Jinja. It escapes untrusted input when rendering templates to avoid injection attacks.</li>
+                <li>ItsDangerous securely signs data to ensure its integrity. This is used to protect Flask’s session cookie.</li>
+                <li>Click is a framework for writing command line applications. It provides the flask command and allows adding custom management commands.</li>
+                <li>Blinker provides support for Signals.</li>
+                <!--tercer parrafo-->
+                <h2>Optional dependencies</h2>
+                <p>These distributions will not be installed automatically. Flask will detect and use them if you install them.</p>
+
+                <li>python-dotenv enables support for Environment Variables From dotenv when running flask commands.</li>
+                <li>Watchdog provides a faster, more efficient reloader for the development server.</li>
+                <!--cuarto parrafo-->
+                <h2>greenlet</h2>
+                <p>You may choose to use gevent or eventlet with your application. In this case, greenlet>=1.0 is required. When using PyPy, PyPy>=7.3.7 is required.</p>
+                <p>These are not minimum supported versions, they only indicate the first versions that added necessary features. You should use the latest versions of each.</p>
+                <!--Quinto parrafo-->
+                <h2>Virtual environments</h2>
+                <p>Use a virtual environment to manage the dependencies for your project, both in development and in production.</p>
+                <p>What problem does a virtual environment solve? The more Python projects you have, the more likely it is that you need to work with different versions of Python libraries, or even Python itself. Newer versions of libraries for one project can break compatibility in another project.</p>
+                <p>Virtual environments are independent groups of Python libraries, one for each project. Packages installed for one project will not affect other projects or the operating system’s packages.</p>
+                <p>Python comes bundled with the venv module to create virtual environments.</p>
+                <!--Primer conjunto de codigo-->
+                <h4>Create an environment</h4>
+                <p>Create a project folder and a .venv folder within:</p>
+
+                <!--Segun cuadro-->
+                <h4>Activate the environment</h4>
+                <p>Before you work on your project, activate the corresponding environment:</p>
+
+                <p>Your shell prompt will change to show the name of the activated environment.</p>
+
+                <!--Final-->
+
+                <h4>Install Flask</h4>
+                <p>Within the activated environment, use the following command to install Flask:</p>
+
+                <b>$ pip install Flask</b>
+
+                <p>Flask is now installed. Check out the Quickstart or go to the Documentation Overview.</p>
+            </div>
+        </div>
+    </div>
